@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Management Quiz</title>
+  <style>
+    body { font-family: , sans-serif; background: #f9f9f9; padding: 20px; }
+    h1 { text-align: center; color: #333; }
+    .quiz-container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .question { margin-bottom: 20px; }
+    .question p { font-weight: bold; }
+    .answers label { display: block; margin-bottom: 8px; cursor: pointer; }
+    button { background: #007BFF; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #0056b3; }
+    #result { font-weight: bold; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Financial Management Quiz</h1>
+  <div class="quiz-container">
+    <form id="quizForm">
+      <!-- Question 1 -->
+      <div class="question">
+        <p>1. What is investment decision?</p>
+        <div class="answers">
+          <label><input type="radio" name="q1" value="0"> A. determining the level and types of funds to raise</label>
+          <label><input type="radio" name="q1" value="1"> B. decide to the amount and types of assets to invest in.</label>
+          <label><input type="radio" name="q1" value="0"> C. establish a devidend policy to retian earning reinvestment or pay dividend to shareholders</label>
+          
+        </div>
+      </div>
+
+      <!-- More questions below (for simplicity, only 1 shown above, continue similarly for the rest) -->
+
+      <!-- Example for Question 2 -->
+      <div class="question">
+        <p>2. what is Financial decision</p>
+        <div class="answers">
+          <label><input type="radio" name="q2" value="1"> A. determining the level andtypes of funds to raise</label>
+          <label><input type="radio" name="q2" value="0"> B. establish a devidend policy to retian earning reinvestment or pay dividend to shareholders</label>
+          <label><input type="radio" name="q2" value="0"> C. decide to the amoubnt and types of assets to invest in.</label>
+        
+        </div>
+      </div>
+
+      <div class="question">
+        <p>3. what is dividend decision</p>
+        <div class="answers">
+          <label><input type="radio" name="q3" value="0"> A. determining the level andtypes of funds to raise</label>
+          <label><input type="radio" name="q3" value="1"> B. establish a devidend policy to retian earning reinvestment or pay dividend to shareholders</label>
+          <label><input type="radio" name="q3" value="0"> C. decide to the amoubnt and types of assets to invest in.</label>
+        
+        </div>
+      </div>
+
+     <div class="question">
+        <p>4. Firms hold cash to meet day-to-day operatioin expenses?</p>
+        <div class="answers">
+          <label><input type="radio" name="q4" value="0"> A. The precautionary motive</label>
+          <label><input type="radio" name="q4" value="0"> B. The financial motive</label>
+          <label><input type="radio" name="q4" value="0"> C. The speculative motive</label>
+          <label><input type="radio" name="q4" value="1"> D. The transaction motive</label>
+        </div>
+      </div> <!-- Repeat up to Question 20... -->
+
+     <div class="question">
+        <p>5. Business hold cash to seize unforeseen profit opportunities.</p>
+        <div class="answers">
+          <label><input type="radio" name="q5" value="0"> A. The precautionary motive</label>
+          <label><input type="radio" name="q5" value="0"> B. The financial motive</label>
+          <label><input type="radio" name="q5" value="1"> C. The speculative motive</label>
+          <label><input type="radio" name="q5" value="0"> D. The transaction motive</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>6. Cash is kept a buffer for unexpected, especially when cash flow are uncertain</p>
+        <div class="answers">
+          <label><input type="radio" name="q6" value="1"> A. The precautionary motive</label>
+          <label><input type="radio" name="q6" value="0"> B. The financial motive</label>
+          <label><input type="radio" name="q6" value="0"> C. The speculative motive</label>
+          <label><input type="radio" name="q6" value="0"> D. The transaction motive</label>
+        </div>
+      </div>
+     
+      <div class="question">
+        <p>7. Why in financial use wealth maximisation?</p>
+        <div class="answers">
+          <label><input type="radio" name="q7" value="0"> A. wealth maximisation equal to profit maximisation.</label>
+          <label><input type="radio" name="q7" value="0"> B. profit maximisation better than wealth maximisation.</label>
+          <label><input type="radio" name="q7" value="1"> C. wealth maximisation better than profit maximisation.</label>
+        </div>
+      </div>
+
+     
+      <div class="question">
+        <p>8. Forecasting and Planning </p>
+        <div class="answers">
+          <label><input type="radio" name="q8" value="0"> A. Evaluate whether to invest in new assets and determine optimal financing methods.</label>
+          <label><input type="radio" name="q8" value="0"> B. Work with other teams to ensure efficient operation.</label>
+          <label><input type="radio" name="q8" value="1"> C. Collaborate with other department to develop forward-looking strategies that shape firm's future. </label>
+          <label><input type="radio" name="q8" value="0"> D. Maintain strong relationship with bank and financial.</label>
+        </div>
+      </div>
+     
+      <div class="question">
+        <p>9. Major investment and Financing decision </p>
+        <div class="answers">
+          <label><input type="radio" name="q9" value="1"> A. Evaluate whether to invest in new assets and determine optimal financing methods.</label>
+          <label><input type="radio" name="q9" value="0"> B. Work with other teams to ensure efficient operation.</label>
+          <label><input type="radio" name="q9" value="0"> C. Collaborate with other department to develop forward-looking strategies that shape firm's future. </label>
+          <label><input type="radio" name="q9" value="0"> D. Maintain strong relationship with bank and financial.</label>
+        </div>
+      </div>
+     
+      <div class="question">
+        <p>10. Coordination and control </p>
+        <div class="answers">
+          <label><input type="radio" name="q10" value="0"> A. Overseen the firm's risk management strategy.</label>
+          <label><input type="radio" name="q10" value="1"> B. Work with other teams to ensure efficient operation.</label>
+          <label><input type="radio" name="q10" value="0"> C. Collaborate with other department to develop forward-looking strategies that shape firm's future. </label>
+          <label><input type="radio" name="q10" value="0"> D. Maintain strong relationship with bank and financial.</label>
+        </div>
+      </div>
+     
+      <div class="question">
+        <p>11. Dealing with the financial market </p>
+        <div class="answers">
+          <label><input type="radio" name="q11" value="0"> A. Overseen the firm's risk management strategy.</label>
+          <label><input type="radio" name="q11" value="0"> B. Work with other teams to ensure efficient operation.</label>
+          <label><input type="radio" name="q11" value="0"> C. Collaborate with other department to develop forward-looking strategies that shape firm's future. </label>
+          <label><input type="radio" name="q11" value="1"> D. Maintain strong relationship with bank and financial.</label>
+        </div>
+      </div>
+     
+      <div class="question">
+        <p>12. Risk management  </p>
+        <div class="answers">
+          <label><input type="radio" name="q12" value="1"> A. Overseen the firm's risk management strategy.</label>
+          <label><input type="radio" name="q12" value="0"> B. Work with other teams to ensure efficient operation.</label>
+          <label><input type="radio" name="q12" value="0"> C. Collaborate with other department to develop forward-looking strategies that shape firm's future. </label>
+          <label><input type="radio" name="q12" value="0"> D. Maintain strong relationship with bank and financial.</label>
+        </div>
+      </div>
+
+      <button type="button" onclick="calculateScore()">Submit Quiz</button>
+      <div id="result"></div>
+    </form>
+  </div>
+
+  <script>
+    function calculateScore() {
+      const form = document.forms.quizForm;
+      let score = 0;
+      for (let i = 1; i <= 20; i++) {
+        const q = form[`q${i}`];
+        if (q) {
+          for (const option of q) {
+            if (option.checked) {
+              score += parseInt(option.value);
+            }
+          }
+        }
+      }
+      document.getElementById('result').innerText = `Your score: ${score} / 20`;
+    }
+  </script>
+</body>
+</html>
